@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cómo funciona el tiempo en JavaScript</title>
+</head>
+<body>
+    <script>
+        console.log('a')
+        //El setTimeout requiere de dos parametros, el primero una función y el segundo un delay (tiempo) este esta expresado en milisegundos.
+        setTimeout (() => console.log('b') ,2000) //La expresion la escribimos en arrow funtions
+        // setTimeout (() => console.log('b') ,0) Si le ponemos 0 segundos este programa se pone en cola de manera parte
+        //y se ejecuta hasta que el programa de js termine de ejecutar todo.
+        console.log('c')
+
+        setTimeout(() => console.log ('d'), 2000)
+        for (var i = 0; i < 1000000000; i++){
+
+        }
+
+    </script>
+</body>
+</html>
+
